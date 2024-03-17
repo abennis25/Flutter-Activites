@@ -1,0 +1,11 @@
+    <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"> <!-- Ajoutez cette ligne si elle n'est pas déjà présente -->
+    
+        <!-- Permissions et autres éléments du manifeste -->
+    
+        <application
+            android:name="androidx.multidex.MultiDexApplication"
+            tools:replace="android:name"> <!-- Ajoutez cette ligne -->
+            <!-- Autres attributs et éléments de l'application -->
+        </application>
+    </manifest>
